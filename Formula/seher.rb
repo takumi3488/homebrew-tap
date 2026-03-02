@@ -1,25 +1,25 @@
 class Seher < Formula
   desc "CLI tool to monitor Claude API rate limits and execute code after reset"
   homepage "https://github.com/takumi3488/seher"
-  version "0.0.11"
+  version "0.0.12"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/takumi3488/seher/releases/download/v0.0.11/sehercode-aarch64-apple-darwin.tar.xz"
-      sha256 "e4c2323c44887367e73b70d68970e60ab1f4fff4e98c93dc93fbd9b92e8dea6b"
+      url "https://github.com/takumi3488/seher/releases/download/v0.0.12/sehercode-aarch64-apple-darwin.tar.xz"
+      sha256 "7d8fad5ffae9e42d64aad7e56447a27dc14f12f5ca8bc94de0a518988d406ace"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/takumi3488/seher/releases/download/v0.0.11/sehercode-x86_64-apple-darwin.tar.xz"
-      sha256 "62723e2378608fa042fcab3867e4bc6360a9d30e3abf5f464abee56c0104bbe7"
+      url "https://github.com/takumi3488/seher/releases/download/v0.0.12/sehercode-x86_64-apple-darwin.tar.xz"
+      sha256 "e888b18dfd1c58fc505d06077adedd4026a3f40c21e802baee09e9766016ad22"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/takumi3488/seher/releases/download/v0.0.11/sehercode-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "abcc8020c912e888d4c8caa3236380a75fb1818989550bf521bbae3d5c754d9a"
+      url "https://github.com/takumi3488/seher/releases/download/v0.0.12/sehercode-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "1e825545a10a6ce82eebd6511c043b46e6bd38c35b7352e96a5ed2b3f35fe1d2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/takumi3488/seher/releases/download/v0.0.11/sehercode-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "a96ed71da3f1ce19fb083be3dc0122f39b91f34c306b857fa8741d215ca8ed58"
+      url "https://github.com/takumi3488/seher/releases/download/v0.0.12/sehercode-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "943747a5e172a23ec8818b44835983aaacadeb9c84e8a02cc13d213b8e26a9eb"
     end
   end
   license "Apache-2.0"
