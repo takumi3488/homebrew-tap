@@ -4,8 +4,8 @@ class Crab < Formula
   version "0.1.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/smartcrabai/smartcrab/releases/download/v0.1.4/smartcrab-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "f8143b8ba8a5e53993dd1149f6046b171570b3c53cbd57441252056fc3cce1fc"
+      url "https://github.com/smartcrabai/smartcrab/archive/refs/tags/v0.1.12.tar.gz"
+      sha256 "0b43d136963f80b15d1f4696dfad5df96ce4c5407950a549c8790bcaf2633a8c"
     end
     if Hardware::CPU.intel?
       url "https://github.com/smartcrabai/smartcrab/releases/download/v0.1.4/smartcrab-cli-x86_64-apple-darwin.tar.xz"
